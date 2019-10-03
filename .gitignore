@@ -1,0 +1,13 @@
+# Jekyll stuff
+_site
+.jekyll-cache
+
+# Bundler stuff
+.bundle
+vendor
+
+# Intellij IDEA stuff
+.idea
+
+# Various files
+*~
