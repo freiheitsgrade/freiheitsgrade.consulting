@@ -1,0 +1,15 @@
+= freiheitsgrade.consulting
+
+Die Webseite für https://freiheitsgrade.consulting.
+
+== Arbeitsumgebung aufsetzen
+
+* rbenv installieren (`sudo port install rbenv`)
+* Ruby 2.6.3 installieren (`rbenv install 2.6.3`)
+* Bundler installieren (`gem install bundler`)
+* Gems installieren (`cd freiheitsgrade.consultung; bundle install`)
+
+== Wichtige Jekyll-Befehle
+
+* ...
+
