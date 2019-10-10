@@ -1,0 +1,8 @@
+
+exclude:
+    - 'Dockerfile'
+    - 'readme.adoc'
+    - 'scripts'
+
+
+
