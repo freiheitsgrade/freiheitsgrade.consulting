@@ -7,6 +7,19 @@
     <title>{{ page.title }}</title>
   </head>
   <body>
+
+    <hr/>
+    {% for item in site.data.top-navigation.toc %}
+    <h3>{{ item.title }}</h3>
+    <code>{{ item.url }}</code>
+    <ul>
+      {% for entry in item.subpages %}
+      <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+    <hr/>
+
     {{ content }}
   </body>
 </html>

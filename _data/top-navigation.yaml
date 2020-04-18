@@ -1,0 +1,31 @@
+toc:
+  - title: Projekte
+    url: /projekte/
+
+  - title: Kompetenzen
+    url: /kompetenzen/
+    subpages:
+      - title: Technologieberatung
+        url: technologieberatung/
+      - title: Architekturberatung
+        url: architekturberatung/
+      - title: Cloudoperations
+        url: cloudoperations/
+      - title: Produktentwicklung
+        url: produktentwicklung
+
+  - title: Schulungen
+    url: /schulungen/
+
+  - title: Wir
+    url: /wir/
+    subpages:
+      - title: Wie wir arbeiten
+        url: wie-wir-arbeiten/
+      - title: Was wir wollen
+        url: was-wir-wollen/
+      - title: Kader
+        url: kader/
+
+  - title: Artikel
+    url: /artikel/
