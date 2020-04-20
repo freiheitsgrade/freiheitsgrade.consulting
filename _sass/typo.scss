@@ -1,0 +1,15 @@
+
+%fhg-headline-font-color {
+  color: $text-color;
+}
+
+%fhg-base-font-family {
+  font-family: $font-family;
+}
+
+.fhg-headline {
+  @extend %fhg-base-font-family;
+  @extend %fhg-headline-font-color;
+
+  font-size: $font-size-headline;
+}
