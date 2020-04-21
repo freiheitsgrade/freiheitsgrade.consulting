@@ -1,5 +1,9 @@
 
 %fhg-headline-font-color {
+  color: $headline-color;
+}
+
+%fhg-text-font-color {
   color: $text-color;
 }
 
@@ -12,4 +16,12 @@
   @extend %fhg-headline-font-color;
 
   font-size: $font-size-headline;
+  font-weight: 500;
+}
+
+.fhg-continuous-text {
+  @extend %fhg-base-font-family;
+  @extend %fhg-text-font-color;
+
+  font-weight: normal;
 }

@@ -1,0 +1,4 @@
+# Settings for Webfonts
+*.woff2         binary
+*.woff          binary
+*.eot           binary
