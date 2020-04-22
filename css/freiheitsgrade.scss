@@ -2,7 +2,11 @@
 # Frontmatter to force Jekyll to process this file
 ---
 
-@import "variables";
-@import "typo";
-@import "core";
-@import "fontface";
+@import "../_sass/base/base";
+@import "../_sass/layout/layout";
+@import "../_sass/module/module";
+@import "../_sass/state/state";
+@import "../_sass/theme/theme";
+
+
+@import "../_sass/navigation";

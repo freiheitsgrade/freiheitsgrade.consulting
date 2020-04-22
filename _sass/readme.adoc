@@ -1,0 +1,7 @@
+= Für die, die wissen wollen
+
+* Die Stylesheets sind mittels Sass (_Syntactically Awesome StyleSheets_)
+  spezifiziert. Siehe https://sass-lang.com[^]
+* Alle Sass-Dateien sind nach den Ideen von SMACSS (_Scalable and Modular Architecture for CSS_)
+  organisiert. Siehe http://http://smacss.com/[^]
+* Die Stylesheets sind mittels BEM (_Block. Element. Modifier_) strukturiert.

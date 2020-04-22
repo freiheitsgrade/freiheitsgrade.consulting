@@ -1,0 +1,13 @@
+.fhg-l-header {
+  height: 130px;
+  padding: 0;
+  margin: 0;
+
+  nav {
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+  }
+}
+
