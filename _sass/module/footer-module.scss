@@ -1,0 +1,17 @@
+.fhg-m-footer-element {
+  margin-right: 40px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.fhg-m-footer-element {
+  a {
+    color: $fhg-font-primary;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: lighten($fhg-font-primary, 10);
+  }
+}

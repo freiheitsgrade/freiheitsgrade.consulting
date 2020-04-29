@@ -1,0 +1,15 @@
+
+.fhg-l-footer {
+  flex-shrink: 0;
+  height: 130px;
+
+  padding: 0 50px 0 50px;
+  display: flex;
+  flex-direction: row;
+
+  > :last-child {
+    flex-grow: 1;
+    flex-direction: row-reverse;
+    margin-right: 0;
+  }
+}

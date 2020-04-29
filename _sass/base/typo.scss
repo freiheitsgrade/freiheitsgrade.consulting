@@ -19,10 +19,12 @@
   font-weight: 400;
 }
 
-.fhg-continuous-text {
+.fhg-text {
   @extend %fhg-base-font-family;
   @extend %fhg-text-font-color;
 
   font-size: $font-size-base;
   font-weight: normal;
 }
+
+
