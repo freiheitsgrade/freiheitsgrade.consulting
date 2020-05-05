@@ -8,6 +8,9 @@
 
 html {
   height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 body {
@@ -18,5 +21,25 @@ body {
   min-height: 100%;
   margin: 0 !important;
   padding: 0 !important;
+
+  color: $fhg-font-primary;
+  font-size: 130%;
+  font-family: $fhg-font-family;
+  line-height: 1.6em;
+}
+
+h1 {
+  font-size: 180%;
+  font-weight: $fhg-font-weight-light;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  line-height: 1.3em;
+}
+
+h2 {
+  font-size: 120%;
+  color: #fff;
+  font-weight: $fhg-font-weight-regular;
 }
 

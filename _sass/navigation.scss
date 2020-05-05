@@ -7,6 +7,8 @@
   &-home {
     display: flex;
     flex-grow: 1;
+    color: #fff;
+    font-weight: $fhg-font-weight-medium;
   }
 
   &-home a {

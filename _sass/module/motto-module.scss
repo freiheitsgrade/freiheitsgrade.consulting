@@ -1,0 +1,26 @@
+
+.fhg-m-motto {
+  color: $fhg-font-primary;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @extend %fhg-base-font-family;
+  @extend %fhg-headline-font-color;
+
+  font-weight: $fhg-font-weight-regular;
+
+  min-height: 600px;
+
+  padding-left: 10%;
+  padding-right: 10%;
+
+
+  h1:after {
+    content: "_";
+    color: $fhg_color-accent;
+  }
+}
+
+
+

@@ -1,0 +1,20 @@
+.fhg-l-motto-1-column {
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  flex-grow: 1;
+  display: grid;
+
+  margin-bottom: 100px;
+
+  grid-column-gap: 100px;
+  grid-row-gap: 50px;
+}
+
+.fhg-l-motto-1-column > *:not(:first-child) {
+  margin-right: 250px;
+  margin-left: 250px;
+
+}
+
+
+

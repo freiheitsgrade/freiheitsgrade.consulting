@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'JetBrains Mono';
-  font-weight: normal;
+  font-weight: $fhg-font-weight-regular;
   font-style: normal;
 
   src: url('/bricks/font/eot/JetBrainsMono-Regular.eot');
@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: 'JetBrains Mono';
-  font-weight: normal;
+  font-weight: $fhg-font-weight-regular;
   font-style: italic;
 
   src: url('/bricks/font/eot/JetBrainsMono-Italic.eot');
@@ -22,7 +22,7 @@
 
 @font-face {
   font-family: 'JetBrains Mono';
-  font-weight: 500;
+  font-weight: $fhg-font-weight-medium;
   font-style: normal;
 
   src: url('/bricks/font/eot/JetBrainsMono-Medium.eot');

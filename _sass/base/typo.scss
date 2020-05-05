@@ -15,16 +15,15 @@
   @extend %fhg-base-font-family;
   @extend %fhg-headline-font-color;
 
-  font-size: $font-size-headline;
-  font-weight: 400;
+  font-weight: $fhg-font-weight-regular;
+  font-size: 150%;
 }
 
 .fhg-text {
   @extend %fhg-base-font-family;
   @extend %fhg-text-font-color;
 
-  font-size: $font-size-base;
-  font-weight: normal;
+  font-weight: $fhg-font-weight-regular;
 }
 
 
