@@ -1,0 +1,25 @@
+
+.topic-icon-module {
+  display: grid;
+
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  grid-column-gap: 25px;
+
+  // border: 1px solid firebrick;
+
+}
+
+.topic-icon-module > *:first-child {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 2;
+}
+
+.topic-icon-module > h2 {
+  margin-top: 0;
+  font-weight: $fhg-font-weight-medium;
+}
+
+.topic-icon-module > p {
+  border: greenyellow 1px solid;
+}
